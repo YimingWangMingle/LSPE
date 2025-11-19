@@ -24,6 +24,7 @@ Unitree Go2 ROS2 https://github.com/unitreerobotics/unitree_ros2
 - git clone this repo
 - move it to your workspace
 - make sure the structure is correct
+  
 For example:
 ```
 Your_Own_WorkSpace/
