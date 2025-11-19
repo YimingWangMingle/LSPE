@@ -42,3 +42,21 @@ Your_Own_WorkSpace/
         ├── setup.cfg
         └── setup.py
 ```
+
+## Usage:
+Open your own work space:
+```
+cd Your_Own_WorkSpace/
+```
+Build ROS2 Package:
+```
+colcon build
+```
+Source:
+```
+source install/setup.bash
+```
+Run:
+```
+ros2 run real_robot_pkg policy_node
+```
