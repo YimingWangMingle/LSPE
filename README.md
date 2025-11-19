@@ -27,17 +27,31 @@ Unitree Go2 ROS2 https://github.com/unitreerobotics/unitree_ros2
 For example:
 
 project/
+
 └── src/
+
     └── real_robot_pkg/
+    
         ├── real_robot_pkg/
+        
         │   ├── __init__.py
+        
         │   └── policy_node.py
+        
         ├── resource/
+        
         │   └── real_robot_pkg
+        
         ├── test/
+        
         │   ├── test_copyright.py
+        
         │   ├── test_flake8.py
+        
         │   └── test_pep257.py
+        
         ├── package.xml
+        
         ├── setup.cfg
+        
         └── setup.py
