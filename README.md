@@ -1,5 +1,8 @@
 # LSPE
 
+## Description:
+This is a code file based on ROS2. It utilizes the high-level control of topics in the Unitree Go2. It extracts camera images from the Unitree Go2, feeds them as input to the model, and the model outputs actions. These actions are then converted into ROS2 messages and sent to the control-related Unitree Go2 topics to drive the real robot's actions, thereby completing the overall task.
+
 ## Relevant documents:
 
 In order to build the environment, you may need:
