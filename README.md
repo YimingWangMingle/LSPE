@@ -24,7 +24,31 @@ Unitree Go2 ROS2 https://github.com/unitreerobotics/unitree_ros2
 - git clone this repo
 - move it to your workspace
 - make sure the structure is correct
-  
+
+If Unitree Go2 environment is correctly configured, the structure will be like:
+For example:
+```
+Your_Own_WorkSpace/
+└── src/
+    └── real_robot_pkg/
+        ├── real_robot_pkg/
+        │   ├── __init__.py
+        │   └── policy_node.py
+        ├── resource/
+        │   └── real_robot_pkg
+        ├── test/
+        │   ├── test_copyright.py
+        │   ├── test_flake8.py
+        │   └── test_pep257.py
+        ├── package.xml
+        ├── setup.cfg
+        └── setup.py
+```
+
+If unfortunately the Unitree Go2 environment configuration fails.
+A good way to solve it, is downloading the unitree msgs ros2 pkg directly.
+You can find it in __Relevant documents__
+Then, add it to your work space.
 For example:
 ```
 Your_Own_WorkSpace/
